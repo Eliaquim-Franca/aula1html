@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Aula 1 trocando os elementos</title>
+</head>
+<body>
+	<h1 id="nome">Silas</h1>
+	<button onclick="trocaNome()">Trocar</button>
+	<button onclick="trocaCorAzul()">Trocar para azul</button>
+	<button onclick="trocaCorVermelho()">Trocar para Vermelho</button>
+
+	<script type="text/javascript">
+		function trocaNome() {
+			document.getElementById("nome").textContent = "Eliaquim"
+			/*text Content = conteudo do texto*/
+		}
+	</script>		
+	</h2>
+	<script type="text/javascript">
+		function trocaCorAzul() {
+			document.getElementById("nome").style.color = "blue" 
+		}
+	</script>
+	<script type="text/javascript">
+		function trocaCorVermelho() {
+			document.getElementById("nome").style.color = "red"
+		}
+	</script>
+
+</body>
+</html>
